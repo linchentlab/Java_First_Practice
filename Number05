@@ -1,0 +1,15 @@
+//判断是否为闰年
+
+import java.util.Scanner;
+public class Number5 {
+    public static void main(String[] ads){
+        int year;
+        Scanner scanner = new Scanner(System.in);
+        year = scanner.nextInt();
+        if((year%100!=0&&year%4==0)||year%400==0){
+            System.out.println(year + "是闰年");
+        }else{
+            System.out.println(year + "不是闰年");
+        }
+    }
+}
