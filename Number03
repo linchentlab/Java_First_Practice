@@ -1,0 +1,13 @@
+//输入圆的半径输出圆的半径
+
+import java.util.Scanner;
+public class Number3 {
+    public static void main(String[] ads){
+        double s ;
+        double r ;
+        Scanner scanner = new Scanner(System.in);
+        r = scanner.nextDouble();
+        s = 3.14*r*r;
+        System.out.println("该圆的面积为:" + s);
+    }
+}
