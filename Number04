@@ -1,0 +1,27 @@
+//输入两个数并计算和、差、积、商
+import java.util.Scanner;
+public class Number4 {
+    public static void main(String[] ads){
+        int a;
+        int b;
+
+        int x;
+        int y;
+        int z;
+        int g;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入第一个数：\n");
+        a = scanner.nextInt();
+        System.out.println("请输入第二个数：\n");
+        b = scanner.nextInt();
+
+        x = a+b;
+        y = a-b;
+        z = a*b;
+        g = a/b;
+        System.out.println("两数之和为：" + x);
+        System.out.println("两数之差为：" + y);
+        System.out.println("两数之积为：" + z);
+        System.out.println("两数之商为：" + g);
+    }
+}
