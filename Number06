@@ -1,0 +1,12 @@
+//利用循环语句求1--100之间的整数之和，并输出结果。
+
+public class Number6 {
+    public static void main(String[] ads){
+        int a = 1;
+        int sum = 0;
+        for(a = 1;a <= 100;a++){
+            sum = sum + a;
+        }
+        System.out.println(sum);
+    }
+}
