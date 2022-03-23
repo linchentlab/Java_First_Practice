@@ -1,0 +1,11 @@
+//计算两个数的商和余数
+import java.util.Scanner;
+public class Number2 {
+    public static void main(String[] ads){
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.println("a和b的商是: " + a/b);
+        System.out.println("a和b的余数是: " + a%b);
+    }
+}
